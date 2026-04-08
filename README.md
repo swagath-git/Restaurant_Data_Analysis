@@ -48,11 +48,11 @@ Explore city-wise restaurant distribution
      1. Distribution of aggregate ratings
      2. Count of restaurants by rating category
 
-2. Cuisine Analysis
+4. Cuisine Analysis
    1. Most popular cuisines
    2. Frequency of different food types
 
-3. Location Analysis
+5. Location Analysis
    1. City-wise distribution of restaurants
    2. Top cities with highest restaurant count
 
