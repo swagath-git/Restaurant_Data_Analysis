@@ -25,7 +25,7 @@ Identify popular cuisines
 Study the effect of online delivery & table booking
 Explore city-wise restaurant distribution
 
-# Tech Stack
+# Tools Used
 - Python
 - Pandas
 - NumPy
@@ -45,16 +45,16 @@ Explore city-wise restaurant distribution
 
 3. Exploratory Data Analysis (EDA)
   1. Ratings Analysis
-     1. Distribution of aggregate ratings
-     2. Count of restaurants by rating category
+     - Distribution of aggregate ratings
+     - Count of restaurants by rating category
 
 4. Cuisine Analysis
-   1. Most popular cuisines
-   2. Frequency of different food types
+   - Most popular cuisines
+   - Frequency of different food types
 
 5. Location Analysis
-   1. City-wise distribution of restaurants
-   2. Top cities with highest restaurant count
+   - City-wise distribution of restaurants
+   - Top cities with highest restaurant count
 
 
 # Visualizations
