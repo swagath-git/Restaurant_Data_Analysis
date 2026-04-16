@@ -1,79 +1,74 @@
-# Restaurant Data Analysis Project
-
+# Restaurant Data Analysis (Cognifyz Internship Project)
 # Overview
 
-This project focuses on analyzing a restaurant dataset to uncover insights about customer preferences, restaurant performance, and service features like online delivery and table booking.
-The analysis helps understand what factors influence ratings, popularity, and customer engagement.
+### This project was completed as part of my virtual internship at Cognifyz Technologies.
+The goal of this project is to perform Exploratory Data Analysis (EDA) on a restaurant dataset to uncover useful insights related to cuisines, cities, pricing, ratings, and customer preferences.
 
-# Dataset Information
+# Objectives : 
+- Identify popular cuisines and their distribution
+- Analyze restaurant distribution across different cities
+- Study pricing trends and affordability
+- Understand customer ratings and voting patterns
+- Explore the impact of online delivery and other services
+ 
+# Dataset
+The dataset contains information about restaurants such as:
+- Restaurant Name
+- City
+- Cuisines
+- Price Range
+- Ratings
+- Votes
+- Online Delivery availability
 
-The dataset contains 21 features, including:
-Restaurant Name & ID
-City & Location details
-Cuisines offered
-Average cost for two
-Price range
-Table booking & online delivery availability
-Ratings (Aggregate rating, Rating text, Rating color)
-Number of votes
 
-
-# Objectives
-Analyze how ratings vary across restaurants
-Understand the impact of price range on ratings
-Identify popular cuisines
-Study the effect of online delivery & table booking
-Explore city-wise restaurant distribution
-
-# Tools Used
-- Python
+# Tools & Technologies Used
+- Python 
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
 
-# Steps Performed
-1. Data Loading
-- Loaded dataset using Pandas
-- Checked shape, columns, and basic info
 
-2. Data Cleaning
-- Handled missing values in columns like cuisines
-- Converted data types where necessary
-- Removed irrelevant or duplicate entries
+# Project Tasks & Analysis
+## Level 1
+### Top Cuisines Analysis
+- Identified the most common cuisines
+- Calculated their percentage distribution
+### City Analysis
+- Found city with highest number of restaurants
+- Calculated average ratings per city
+- Identified top-rated city
+### Price Range Distribution
+- Visualized price categories
+- Calculated percentage of restaurants in each range
+### Online Delivery
+- Analyzed availability of online delivery
+- Compared ratings for delivery vs non-delivery restaurants
 
-3. Exploratory Data Analysis (EDA)
-  1. Ratings Analysis
-     - Distribution of aggregate ratings
-     - Count of restaurants by rating category
+# Level 2
+### Restaurant Ratings Analysis
+- Distribution of ratings
+- Identified patterns in customer feedback
+### Votes Analysis
+- Examined relationship between votes and ratings
+### Correlation Analysis
+- Explored relationships between different features
 
-4. Cuisine Analysis
-   - Most popular cuisines
-   - Frequency of different food types
-
-5. Location Analysis
-   - City-wise distribution of restaurants
-   - Top cities with highest restaurant count
-
-
-# Visualizations
-1. Count plots for ratings and cities
-2. Bar charts for top cuisines
-3. Box plots for cost vs rating
-4. Heatmap for correlation analysis
 
 # Key Insights
-1. Restaurants with table booking tend to have better ratings
-2. Online delivery impacts customer engagement (votes)
-3. Certain cuisines dominate the dataset
-4. Higher price range does not always guarantee higher ratings
-A few cities have a high concentration of restaurants
-
-# Results
-1. Identified key factors affecting restaurant ratings
-2. Understood customer preferences based on cuisine and pricing
-3. Gained insights into service features like delivery and booking
+- Certain cuisines dominate the dataset significantly
+- Restaurant distribution is highly concentrated in specific cities
+- Mid-range pricing categories have the highest number of restaurants
+- Restaurants with more votes tend to have more reliable ratings
+- Online delivery availability impacts customer engagement
 
 # Conclusion
-This analysis provides valuable insights for restaurant businesses to improve their offerings, pricing strategies, and customer experience
+This project provides meaningful insights into restaurant trends and customer preferences, helping understand how factors like location, pricing, and services influence ratings and popularity.
+
+---
+
+# Acknowledgement
+
+This project was completed during my internship at Cognifyz Technologies, where I gained hands-on experience in real-world data analysis.
